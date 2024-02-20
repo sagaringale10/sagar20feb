@@ -7,7 +7,7 @@ on:
 env:            
   AWS_REGION: ap-southeast-1           
   ECR_REPOSITORY: sagar-terraform-ecr       
-  ECS_SERVICE: ecsdemo         
+  ECS_SERVICE: sagar-demo         
   ECS_CLUSTER: sagar-terraform-ecs                    
   CONTAINER_NAME: ecs-sample
   TASKDEF: ecsdemo
